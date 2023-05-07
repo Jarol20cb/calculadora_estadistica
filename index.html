@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora de medidas de tendencia central</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<main>
+		<div class="container">
+			<div class="form">
+				<label for="numeros">Ingrese los números (separados por coma):</label>
+				<input type="text" id="numeros" placeholder="Ejemplo: 2, 4, 6, 8">
+				<button id="calcular">Calcular</button>
+			</div>
+			<div class="resultados">
+				<div>
+					<label for="media">Media:</label>
+					<span id="media"></span>
+				</div>
+				<div>
+					<label for="mediana">Mediana:</label>
+					<span id="mediana"></span>
+				</div>
+				<div>
+					<label for="moda">Moda:</label>
+					<span id="moda"></span>
+				</div>
+				<div>
+					<label for="error"></label>
+					<span id="error"></span>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<script src="script.js"></script>
+</body>
+</html>
